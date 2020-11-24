@@ -27,6 +27,7 @@ Crie o diretório local "C:\mantis", baixe o arquivo **docker-compose.yml** e co
 
 3.  Abra o aplicativo Docker Desktop
 ![](https://i.imgur.com/cyAeSa2.png)
+
 4.  Deverá ser apresentado o tutorial, basta dar skip que você terá esta tela
 ![](https://i.imgur.com/Myxqwmv.png)
 
@@ -49,6 +50,7 @@ Crie o diretório local "C:\mantis", baixe o arquivo **docker-compose.yml** e co
 ## **1.2 Configuração inicial Mantis**
 
 Faça o seu primeiro acesso ao Mantis pelo endereço http://127.0.0.1:8989
+
 Após acessar será necessário configurar o banco de dados conforme tabela e valores abaixo:
 
 | Variável | Valor |
@@ -82,6 +84,7 @@ Para acessar ao banco de dados do Mantis (MariaDB) siga os passos abaixo:
 ## 2. Mantis Bug Tracker REST API
 
 Uma vez com a aplicação sendo executada pelo Docker, é possível também realizar testes manuais ou automatizados de API Rest no Mantis.
+
 Basta acessar a [documentação oficial Mantis Bug Tracker REST API](https://documenter.getpostman.com/view/29959/mantis-bug-tracker-rest-api/7Lt6zkP) para visualizar cada endpoint, parâmetros, headers correspondentes.
 
 ![](https://i.imgur.com/rLg6Q54.png)
@@ -92,11 +95,13 @@ Basta acessar a [documentação oficial Mantis Bug Tracker REST API](https://doc
 ### O Token é um parâmetro esssencial nas requisições do Mantis Bug Tracker REST API, para gerá-lo:
 
 1. Acesse o sistema Mantis com o usuário administrador - http://127.0.0.1:8989
+
 2. Acesse o menu com nome do usuário/Minha Conta
 
 ![](https://i.imgur.com/6OHC06W.png)
 
 3. Clique na aba **Tokens API** 
+
 4. Preencha um novo nome para o token e clique em **Criar Token API**
 
 ![](https://i.imgur.com/wp7IIFh.png)
