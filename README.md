@@ -137,7 +137,7 @@ Para a execução remota dos testes automatizados, via selenum grid, serão util
 
   
 
-**4.1 Configuração dos contêineres hub, node chrome e node mozilla**
+**3.1 Configuração dos contêineres hub, node chrome e node mozilla**
 
 - Abrir o prompt de comando
 
@@ -151,7 +151,7 @@ Para a execução remota dos testes automatizados, via selenum grid, serão util
 
   
 
-**4.2 Verificação do console**
+**3.2 Verificação do console**
 
   
 
@@ -164,7 +164,7 @@ Ao executar o comando no navegador `http://127.0.0.1:4444/grid/console` também 
 
 ![enter image description here](https://i.imgur.com/V3choXC.png)
 
-**4.3 Automação de testes e Selenium Grid**
+**3.3 Automação de testes e Selenium Grid**
 Basta fazer as devidas configurações de Remote WebDriver no seu projeto de testes automatizados que os testes poderão ser executados remotamente. 
 Se necessário suba mais containeres para multiplicar os nós.
 
