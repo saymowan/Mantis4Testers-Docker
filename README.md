@@ -23,6 +23,7 @@ Crie o diretório local "C:\mantis", baixe o arquivo **docker-compose.yml** e co
 
 1.  Instalar [Docker Desktop](https://www.docker.com/products/docker-desktop) e reiniciar a máquina
 2.  Caso apresente o erro "WSL 2 installation is incomplete", [baixe e instale o WSL2 Kernel](https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel) e clique em Restart
+
 ![](https://i.imgur.com/4wHESjW.png)
 
 3.  Abra o aplicativo Docker Desktop
@@ -40,12 +41,15 @@ Crie o diretório local "C:\mantis", baixe o arquivo **docker-compose.yml** e co
 7.  Execute o comando> `docker-compose.exe up -d`
 
 8.  Após o processamento se tudo correr bem, as imagens serão baixadas e novos contêineres criados:
+
 ![](https://i.imgur.com/TPbVjVQ.png)
 
 9.  Para validar a criação e execução dos execute o comando `docker ps -a` e os contêineres estarão disponíveis e executando:
+
 ![](https://i.imgur.com/4pZ3IEQ.png)
 
 10. No aplicativo do Docker Desktop apresentará os containeres ativos conforme imagem:
+
 ![](https://i.imgur.com/tZfGGiZ.png)
   
 
@@ -78,9 +82,11 @@ Para acessar ao banco de dados do Mantis (MariaDB) siga os passos abaixo:
 1. Baixe e instale o [software HeidiSQL](https://www.heidisql.com/download.php)
 
 2. Ao abrir o Gerenciador de sessões, preencha com os valores abaixo:
+
 ![](https://i.imgur.com/AhKMxvu.png)
 
 3. Abra a conexão e será possível verificar todas as tabelas e registros:
+
 ![](https://i.imgur.com/EnYk6Md.png)
 
 ## 2. Mantis Bug Tracker REST API
@@ -150,6 +156,7 @@ Para a execução remota dos testes automatizados, via selenum grid, serão util
   
 
 Após o processamento, os containeres estarão disponíveis e em execução. Em vermelho os referentes ao Selenium:
+
 ![enter image description here](https://i.imgur.com/iXBkZkT.png)
 
 
