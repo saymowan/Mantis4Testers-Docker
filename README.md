@@ -26,9 +26,11 @@ Crie o diretório local "C:\mantis", baixe o arquivo **docker-compose.yml** e co
 ![](https://i.imgur.com/4wHESjW.png)
 
 3.  Abra o aplicativo Docker Desktop
+
 ![](https://i.imgur.com/cyAeSa2.png)
 
 4.  Deverá ser apresentado o tutorial, basta dar skip que você terá esta tela
+
 ![](https://i.imgur.com/Myxqwmv.png)
 
 5.  Abra um terminal e acesse o diretório recém criado: "C:/mantis"
